@@ -27,7 +27,7 @@ print(commonnumbers)
 People = int(input("Enter the number of people: "))
 Alllanguages = []
 Commonlanguages = []
-for i in range(people):
+for i in range(People):
     Numberoflanguages = int(input("Enter the number of languages for person " + str(i + 1) + ": "))
     Languages = input("Enter the languages spoken by person " + str(i + 1) + " (separated by spaces): ").split()
     for language in Languages:
